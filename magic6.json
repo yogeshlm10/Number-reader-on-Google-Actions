@@ -1,0 +1,65 @@
+{
+  "id": "bd66cc97-0098-4e7c-b4fe-3ee717d30449",
+  "name": "magic6",
+  "auto": true,
+  "contexts": [
+    "magic5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "magic6",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magic6-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "And the final answer on your mind is \"5\". Am i right?. Reply with \"Yes\" or \"No\".",
+            "Gottcha, the final answer on your mind is \"5\". Did I get it right? Reply with \"Yes\" or \"No\"."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "067d2def-a0ef-4df9-a956-3b1f6665cdaf",
+      "data": [
+        {
+          "text": "Done",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

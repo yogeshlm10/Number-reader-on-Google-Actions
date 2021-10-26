@@ -1,0 +1,61 @@
+{
+  "id": "8d4ce3ff-68a8-45e7-98d6-74dc45652470",
+  "name": "magicfallback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "magic2",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magic3",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magic4",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magic5",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magic1",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "Please follow the instructions carefully to go with the flow. Restart from the beginning if you wish to continue. Reply with \"Talk to Mofa Mind Reader\" to begin."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "userSays": [],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

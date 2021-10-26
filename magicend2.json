@@ -1,0 +1,70 @@
+{
+  "id": "a0e05439-8e81-400e-8115-df620e890c18",
+  "name": "magicend2",
+  "auto": true,
+  "contexts": [
+    "magic6"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "magicend2",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "You might have made mistakes with the calculations. Please begin from first and follow the steps carefully. Thank You."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "04d7d6a3-2962-4915-9dd1-0194d324a018",
+      "data": [
+        {
+          "text": "wrong",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "49eb54c1-533f-4a7e-a959-c25e7be2a59f",
+      "data": [
+        {
+          "text": "no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

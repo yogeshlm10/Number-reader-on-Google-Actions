@@ -1,0 +1,60 @@
+{
+  "id": "57ee6d20-9394-4124-b84c-81aecf369abe",
+  "name": "magic5",
+  "auto": true,
+  "contexts": [
+    "magic4"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "magic5",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "At the end, subtract the total from the number you picked at the first. Reply with \"Done\" if you are done with calculations.",
+            "Finally, subtract the total value you got after previous step with the number you took at the beginning. Reply with \"Done\" if you are done with calculation."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "61fd735c-1792-4496-8820-381c186ff9ab",
+      "data": [
+        {
+          "text": "done",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

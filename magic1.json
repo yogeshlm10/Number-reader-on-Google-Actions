@@ -1,0 +1,87 @@
+{
+  "id": "a52e64f2-dd16-4ed9-9a64-62dffdd99b5d",
+  "name": "magic1",
+  "auto": true,
+  "contexts": [
+    "Defaultwelcomeintent"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "magic1",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Let's get started. Think of a number, be it anything. Reply with \"Ok\" once done.",
+            "Let's begin. Think of any number of your choice. Reply with \"Ok\" once done.",
+            "Let's start with it. Think of any number in your mind. Hope you choose a difficult one.  Reply with \"Ok\" once done."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "a2834e1f-9154-4071-a279-203e51494446",
+      "data": [
+        {
+          "text": "s",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "64f15325-347d-4235-8bc5-1b525a1e9c4c",
+      "data": [
+        {
+          "text": "ss",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a830d397-effd-42a0-b55f-344eb5d504e4",
+      "data": [
+        {
+          "text": "Yes",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

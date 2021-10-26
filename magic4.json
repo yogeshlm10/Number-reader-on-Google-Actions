@@ -1,0 +1,60 @@
+{
+  "id": "52f5b77f-bfc9-4bca-9db3-5d699054f451",
+  "name": "magic4",
+  "auto": true,
+  "contexts": [
+    "magic3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "magic4",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Next, divide your total value by 2. Reply with \"Done\" if you want to proceed.",
+            "Next, divide the value you got after previous step by 2. Reply with \"Done\" if you want to proceed."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ef9d76a4-595e-4b9e-a172-df0a9cdc44ff",
+      "data": [
+        {
+          "text": "then",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

@@ -1,0 +1,71 @@
+{
+  "id": "c719a64b-f56d-42a2-ad56-99f0845b5d27",
+  "name": "magictrickfallback",
+  "auto": true,
+  "contexts": [
+    "magictrick",
+    "magictrick2",
+    "magictrick4",
+    "magictrick3",
+    "magictrick5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "magictrick",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magictrick2",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magictrick4",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magictrick3",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "magictrick5",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Sorry, you are suppose to reply only with \"ok\" or \"then\".",
+            "Please reply only with \"OK\" or \"Then\".",
+            "Can't get you. Reply with either Ok nor Then."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "userSays": [],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
